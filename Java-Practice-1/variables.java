@@ -13,10 +13,10 @@ public class variables {
         byte a = 10;
         int b = 200;
 
-        // b = a;
-        a = b;
+        b = a;
+        // a = b;
 
-        System.out.println(a);
+        System.out.println(b);
 
     }
 }
