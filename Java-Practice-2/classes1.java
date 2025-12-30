@@ -17,6 +17,7 @@ public class classes1 {
         int num1 = 4;
         int num2 = 9;
 
+        // creating object of a class
         Calculator cal = new Calculator();
 
         int result = cal.add(num1, num2);
