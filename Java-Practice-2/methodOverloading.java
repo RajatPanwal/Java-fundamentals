@@ -1,4 +1,4 @@
-
+// only change in parameters matters, not even type of method
 class Calculator{
 
     public int add(int a, int b, int c){
