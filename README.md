@@ -6,3 +6,5 @@ clearing java fundamentals
     - operators
     - conditional
     - loops
+
+2. classes and object in java
