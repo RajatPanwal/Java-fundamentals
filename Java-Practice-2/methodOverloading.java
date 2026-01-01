@@ -8,6 +8,10 @@ class Calculator{
         return a + b ;
     }
 
+    public double add(double a, double b){
+        return a + b;
+    }
+
 }
 
 public class methodOverloading {
@@ -21,6 +25,7 @@ public class methodOverloading {
 
         int three = cal.add(2,4, 3);
         System.out.println(three);
+
 
     }
 
