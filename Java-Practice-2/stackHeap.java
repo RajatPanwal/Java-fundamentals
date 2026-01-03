@@ -14,6 +14,7 @@ public class stackHeap{
         Calculator obj1 = new Calculator();
         Calculator obj2 = new Calculator();
 
+        // num has different instance of obj1 and obj2
         obj1.num = 8;
 
         System.out.println(obj1.num);
