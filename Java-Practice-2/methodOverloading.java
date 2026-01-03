@@ -19,6 +19,7 @@ public class methodOverloading {
 
     public static void main(String[] args) {
 
+        // cal is not an object like in c++, it is a reference variable
         Calculator cal = new Calculator();
 
         int two = cal.add(2, 4);
