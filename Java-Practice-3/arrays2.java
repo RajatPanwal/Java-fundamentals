@@ -20,6 +20,6 @@ public class arrays2 {
             System.out.println();
         }
 
-    }
+    } 
 
 }
