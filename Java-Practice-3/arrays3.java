@@ -34,6 +34,10 @@ public class arrays3 {
         for (int i = 0; i < students.length; i++) {
             System.out.println(students[i].name + " : " + students[i].marks);
         }
+        System.out.println();
+        for(Student s : students){
+            System.out.println(s.name + " : " + s.marks);
+        }
 
     }
 
