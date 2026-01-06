@@ -1,0 +1,5 @@
+
+static method - 
+- you can call a static method directly with the help of a class name.
+- you can use a static variable in a static method, but cant use a non static var inside a static method - because - 
+    non static var are related to object and static method belongs to the class and not confined to any object
