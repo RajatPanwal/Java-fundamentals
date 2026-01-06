@@ -9,6 +9,8 @@ public class string1{
 
         System.out.println(fname + " " + lname); 
 
+        System.out.println(fname.concat(" "+ lname));
+
     }
 
 }
