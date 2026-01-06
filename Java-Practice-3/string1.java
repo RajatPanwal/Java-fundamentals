@@ -7,7 +7,7 @@ public class string1{
         String lname = new String("Panwal");
         // lname = "Panwal";
 
-        System.out.println(fname + " " + lname);
+        System.out.println(fname + " " + lname); 
 
     }
 
