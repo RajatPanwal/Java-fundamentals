@@ -5,6 +5,7 @@ class Mobile {
     int price;
 
     // static make the variable common to all the object with same value(address) - shared by all objects
+    // static variable belongs to the class and not to the object, ie why it is called like this - Mobile.name = ""
     static String name;
 
     void show() {
