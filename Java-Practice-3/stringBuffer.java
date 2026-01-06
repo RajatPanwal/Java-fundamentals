@@ -12,6 +12,7 @@ public class stringBuffer {
 
         sb2.append("Panwal");
         System.out.println(sb2);
+        sb2.ensureCapacity(100);
         System.out.println(sb2.capacity());
 
     }
