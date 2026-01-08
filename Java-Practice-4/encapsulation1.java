@@ -13,9 +13,9 @@ class Human{
     }
 
     // setter
-    public void setAge(int a){
-        // this.age = age;
-        age = a;
+    public void setAge(int age){
+        this.age = age;
+        // age = a;
     }
     public void setName(String name){
         this.name = name;
