@@ -11,3 +11,8 @@ static method -
 OOPS
 Encapsulation
 - Encapsulation = hide data + control how it is changed.
+
+Naming Convention
+- class and interface - CalName
+- variables and methods - marks, show()
+- constants - PIE, BRAND
