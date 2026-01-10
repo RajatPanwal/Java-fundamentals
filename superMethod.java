@@ -1,18 +1,22 @@
 
 class A{
     public A(){
+        super();
         System.out.println("A constructor");
     }
     public A(int a){
+        super();
         System.out.println("A parameterized constructor");
     }
 }
 
 class B extends A{
     public B(){
+        super(5);
         System.out.println("B constructor");
     }
     public B(int b){
+        super(b);
         System.out.println("B parameterized constructor");
     }
 }
