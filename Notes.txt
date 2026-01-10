@@ -33,4 +33,4 @@ method overloading
 - same method name, different parameter list
 
 method overriding
-- 
+- when child and parent class both has method with same name - method of child class overrides method of parent class
