@@ -22,7 +22,9 @@ Inheritance
     class ChildClass extends ParentClass
 - java doesn't support multiple Inheritance to avoid ambiguity - if 2 parent classes has method with same name, child class 
     will be confused that from where it should inherit that method, so prevent this, java doesn't support multiple Inheritance
-- when B extends A, and object of B is created - it call constructor of B, but it also call default constructor of
+- super() - when B extends A, and object of B is created - it call constructor of B, but it also call default constructor of
      A - because every constructor in java has a method super() which is already there even if we don't write it - and this 
      super() method call the default constructor of parent(super) class.
 - every class in java extends a Object class - (only the parent class, child class will automatically inherit it through parent class).
+- this() - this method calls the default constructor of same class - and that default constructor will call the default constructor of
+    super class.
