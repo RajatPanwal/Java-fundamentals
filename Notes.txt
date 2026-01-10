@@ -28,3 +28,9 @@ Inheritance
 - every class in java extends a Object class - (only the parent class, child class will automatically inherit it through parent class).
 - this() - this method calls the default constructor of same class - and that default constructor will call the default constructor of
     super class.
+
+method overloading 
+- same method name, different parameter list
+
+method overriding
+- 
