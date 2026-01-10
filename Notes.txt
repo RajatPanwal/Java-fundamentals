@@ -16,3 +16,7 @@ Naming Convention
 - class and interface - CalName
 - variables and methods - marks, show()
 - constants - PIE, BRAND
+
+Inheritance
+- syntax - 
+    class ChildClass extends ParentClass
