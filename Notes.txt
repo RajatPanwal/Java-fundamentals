@@ -20,3 +20,5 @@ Naming Convention
 Inheritance
 - syntax - 
     class ChildClass extends ParentClass
+- java doesn't support multiple Inheritance to avoid ambiguity - if 2 parent classes has method with same name, child class 
+    will be confused that from where it should inherit that method, so prevent this, java doesn't support multiple Inheritance
