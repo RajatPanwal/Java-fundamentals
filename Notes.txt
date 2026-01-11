@@ -65,6 +65,8 @@ Dynamic Method Dispatch
 - Because at runtime, Java looks at actual object → Dog - and dispatches Dog’s version.
 
 Final
-- same as const in c++ and java, its value can not be changed.
+- variable - same as const in c++ and java, its value can not be changed.
+- class - no one can extend that class.
+- method - it can not be override in child class.
 
  
