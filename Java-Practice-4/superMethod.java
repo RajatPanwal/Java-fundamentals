@@ -1,5 +1,7 @@
 
 class A {
+    public char[] a;
+
     public A() {
         super();
         System.out.println("A constructor");

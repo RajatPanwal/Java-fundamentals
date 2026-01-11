@@ -3,6 +3,6 @@ package tools;
 
 public class A{
 
-    int a = 20;
+    public int a = 20;
 
 }
