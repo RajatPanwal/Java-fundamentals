@@ -47,4 +47,23 @@ Polymorphism
     - 1. compile time - overloading
     - 2. run time - overriding
 
+Dynamic Method Dispatch
+- Java decides which overridden method to run at runtime based on the object — not the reference type
+- class Animal {
+    void sound() {
+            System.out.println("Animal sound");
+        }
+    }
+
+    class Dog extends Animal {
+        void sound() {
+            System.out.println("Dog barks");
+        }
+    }
+
+    Animal a = new Dog();
+    a.sound();
+- O/P - Dog barks
+- Because at runtime, Java looks at actual object → Dog - and dispatches Dog’s version.
+
  
