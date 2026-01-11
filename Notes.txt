@@ -39,4 +39,12 @@ Access Modifiers
 - public - if you want to access something outside the package - make it public.
 - private - private variables can be used only in same class.
 - default - can be accessed in same package.
+- protected - accessible by - same package, child classes (even in other packages).
+
+Polymorphism
+- Same line of code — different output — depending on the object inside it.
+- 2 types - 
+    - 1. compile time - overloading
+    - 2. run time - overriding
+
  
