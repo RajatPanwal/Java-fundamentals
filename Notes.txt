@@ -34,3 +34,9 @@ method overloading
 
 method overriding
 - when child and parent class both has method with same name - method of child class overrides method of parent class
+
+Access Modifiers 
+- public - if you want to access something outside the package - make it public.
+- private - private variables can be used only in same class.
+- default - can be accessed in same package.
+ 
