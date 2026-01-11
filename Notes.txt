@@ -54,16 +54,17 @@ Dynamic Method Dispatch
             System.out.println("Animal sound");
         }
     }
-
     class Dog extends Animal {
         void sound() {
             System.out.println("Dog barks");
         }
     }
-
     Animal a = new Dog();
     a.sound();
 - O/P - Dog barks
 - Because at runtime, Java looks at actual object → Dog - and dispatches Dog’s version.
+
+Final
+- same as const in c++ and java, its value can not be changed.
 
  
