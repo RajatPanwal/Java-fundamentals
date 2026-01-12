@@ -2,6 +2,11 @@
 class Laptop{
     String modal;
     int price;
+
+    public String toString(){
+        return  modal + " : " + price;
+    }
+    
 }
 
 public class objectClass {
