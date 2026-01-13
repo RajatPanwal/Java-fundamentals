@@ -23,11 +23,11 @@ Inheritance
 - java doesn't support multiple Inheritance to avoid ambiguity - if 2 parent classes has method with same name, child class 
     will be confused that from where it should inherit that method, so prevent this, java doesn't support multiple Inheritance
 - super() - when B extends A, and object of B is created - it call constructor of B, but it also call default constructor of
-     A - because every constructor in java has a method super() which is already there even if we don't write it - and this 
-     super() method call the default constructor of parent(super) class.
+    A - because every constructor in java has a method super() which is already there even if we don't write it - and this 
+    super() method call the default constructor of parent(super) class.
 - every class in java extends a Object class - (only the parent class, child class will automatically inherit it through parent class).
-- this() - this method calls the default constructor of same class - and that default constructor will call the default constructor of
-    super class.
+- this() - this method calls the default constructor of same class - and that default constructor will call the default constructor 
+    of super class.
 
 method overloading 
 - same method name, different parameter list
@@ -88,6 +88,14 @@ Anonymous Inner Class
 - You create it only to override something once and throw it away.
 - it is used when we know, a child class is only created to extend a parent and override a function, which is used only once. - so
     why create a new class, just create an Anonymous class.
-- 
 
+Interface
+- An interface is a rule book.
+- It says what a class must do, not how it does it.
+- Java allows multiple inheritance ONLY via interface
+- similar to abstract class
+- method inside interface are - public abstract
+- a class needs to implements(extend) that interface - and need to override(implement) the method in class - and if fail to override
+    any method - then the class will also become an abstract class
+- variables in interface are - final and static 
  
