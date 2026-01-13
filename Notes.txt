@@ -69,4 +69,11 @@ Final
 - class - no one can extend that class.
 - method - it can not be override in child class.
 
+Abstract
+- abstract means “incomplete on purpose.”
+- It forces child classes to complete it.
+- you cannot create an object of an abstract class
+- it is compulsory to make the class abstract if we are creating an abstract method in it.
+- but we don't need to have an abstract method in an abstract class compulsory.
+
  
