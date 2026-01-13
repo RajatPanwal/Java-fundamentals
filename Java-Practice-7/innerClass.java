@@ -19,11 +19,12 @@ public class innerClass {
 
     public static void main(String[] args) {
         
-        Outer obj = new Outer();
+        Outer obj1 = new Outer();
 
-        obj.show();
+        obj1.show();
 
-        Outer.Inner obj2 = obj.new Inner();
+        // syntax to class inner class
+        Outer.Inner obj2 = obj1.new Inner();
 
         obj2.innerMethod();
 

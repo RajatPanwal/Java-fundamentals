@@ -78,8 +78,8 @@ Abstract
 
 Inner class
 - An inner class is a class written inside another class.
--   Car car = new Car();
-    Car.Engine engine = car.new Engine();
+-   // syntax to class inner class
+        Outer.Inner obj2 = obj.new Inner();
 - just like when we need to call a method, first we need to create an object for it first - similarly - to call an inner
     class, first we need to create an object of outer class.
 
