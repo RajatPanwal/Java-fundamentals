@@ -83,4 +83,11 @@ Inner class
 - just like when we need to call a method, first we need to create an object for it first - similarly - to call an inner
     class, first we need to create an object of outer class.
 
+Anonymous Inner Class
+- It’s a one-time-use class with no name.
+- You create it only to override something once and throw it away.
+- it is used when we know, a child class is only created to extend a parent and override a function, which is used only once. - so
+    why create a new class, just create an Anonymous class.
+- 
+
  
