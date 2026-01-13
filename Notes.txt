@@ -76,4 +76,11 @@ Abstract
 - it is compulsory to make the class abstract if we are creating an abstract method in it.
 - but we don't need to have an abstract method in an abstract class compulsory.
 
+Inner class
+- An inner class is a class written inside another class.
+-   Car car = new Car();
+    Car.Engine engine = car.new Engine();
+- just like when we need to call a method, first we need to create an object for it first - similarly - to call an inner
+    class, first we need to create an object of outer class.
+
  
