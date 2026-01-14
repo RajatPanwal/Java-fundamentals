@@ -98,4 +98,8 @@ Interface
 - a class needs to implements(extend) that interface - and need to override(implement) the method in class - and if fail to override
     any method - then the class will also become an abstract class
 - variables in interface are - final and static 
+
+- class - class -> extends
+- class - interface -> implements
+- interface - interface -> extends
  
