@@ -26,6 +26,8 @@ public class interface1 {
         A obj;
         obj = new B();
 
+        System.out.println("getClass() " + obj.getClass());
+
         obj.show();
         obj.config();
 
