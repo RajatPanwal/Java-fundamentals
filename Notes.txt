@@ -106,4 +106,5 @@ Interface
 Enums
 - a fixed list of allowed values.
 - named constants
+- enum is a class
  
