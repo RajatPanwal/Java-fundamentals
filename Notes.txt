@@ -110,4 +110,4 @@ Enums
 
 Annotation
 - An annotation is a label (metadata) that gives extra information about your code to the compiler or a framework.
-- compiler helps us to check if we have made any bug
+- compiler helps us to check if we have made any bug.
