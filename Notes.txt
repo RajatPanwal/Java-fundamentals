@@ -127,9 +127,11 @@ Types of Interfaces
         int add(int a, int b);
     }
     - It forces the compiler to ensure you don’t add a second abstract method.
+    - lambda expressions can only be used with FunctionalInterface.
 - 3. Marker Interface
     - An interface with ZERO methods.
     - interface Serializable {
         }
+
 
 
