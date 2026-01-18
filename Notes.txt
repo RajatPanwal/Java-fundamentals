@@ -133,5 +133,14 @@ Types of Interfaces
     - interface Serializable {
         }
 
-
-
+Lambda Expression
+- A lambda is a short way to write a method WITHOUT naming a class.
+- before - 
+    A obj = new A() {
+        public void show() {
+            System.out.println("IN SHOW");
+        }
+    };
+- after - 
+    A obj = () -> System.out.println("IN SHOW");
+- Lambda works ONLY with functional interfaces (interfaces with ONE abstract method).
