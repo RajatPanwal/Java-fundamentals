@@ -144,3 +144,4 @@ Lambda Expression
 - after - 
     A obj = () -> System.out.println("IN SHOW");
 - Lambda works ONLY with functional interfaces (interfaces with ONE abstract method).
+- Lambda = shortcut to implement a functional interface.
