@@ -151,6 +151,7 @@ Exceptions
 - exceptions are runtime errors.
 - checked - checked at compile time
 - unchecked - checked at runtime
+- we can create our own custom exception.
 
 Throw
 - throw is you saying: “Something is wrong RIGHT NOW.”

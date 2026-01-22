@@ -1,4 +1,10 @@
 
+class RajatException extends Exception{
+    public RajatException(String str){
+        super(str);
+    }
+}
+
 public class exception2 {
 
     public static void main(String[] args) {
@@ -9,11 +15,11 @@ public class exception2 {
         try {
             j = 18 / i;
             if(j == 0){
-                throw new ArithmeticException("I don't want to print 0");
+                throw new RajatException("I don't want to print 0");
             }
-        } catch (ArithmeticException e) {
+        } catch (RajatException e) {
             j = 18/1;
-            System.out.println("Arithmetic Exception: " + e);
+            System.out.println("Rajat Exception: " + e);
         } catch (Exception e) {
             System.out.println("Something went wrong");
         }
