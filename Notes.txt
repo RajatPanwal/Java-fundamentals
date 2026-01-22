@@ -165,3 +165,6 @@ Throw
 
 Throws
 - throws is you saying: “I won’t handle this — YOU handle it.”
+
+Finally
+- code in finally will execute not matter what. - even if there is an exception
