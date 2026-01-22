@@ -147,6 +147,17 @@ Lambda Expression
 - Lambda = shortcut to implement a functional interface.
 
 Exceptions
+- you should always handle exceptions
 - exceptions are runtime errors.
 - checked - checked at compile time
 - unchecked - checked at runtime
+
+Throw
+- throw is you saying: “Something is wrong RIGHT NOW.”
+- its like you are not going directly to catch block, because it is not an exception - but its should go to
+    catch block because it is causing some problem.
+- we can use if statement here
+- Used to actually create and throw an exception
+- if(age < 18) {
+    throw new IllegalArgumentException("Age must be >= 18");
+    }
