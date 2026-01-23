@@ -185,3 +185,6 @@ Thread
     Multiple tasks at once
     Faster
     Used in servers (Spring Boot)
+- we can make our thread wait for some time by this 
+    Thread.sleep(milliseconds);
+- by sleep() - thread goes into waiting state.

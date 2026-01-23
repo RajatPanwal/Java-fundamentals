@@ -1,23 +1,34 @@
 
-class A extends Thread{
-    public void run(){
-        for(int i=0; i<=100; i++){
+class A extends Thread {
+    public void run() {
+        for (int i = 0; i <= 100; i++) {
             System.out.println("HI");
-        }
-    }
-}
-class B extends Thread{
-    public void run(){
-        for(int i=0; i<=100; i++){
-            System.out.println("HELLO");
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
 
-public class threads1{
+class B extends Thread {
+    public void run() {
+        for (int i = 0; i <= 100; i++) {
+            System.out.println("HELLO");
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+public class threads1 {
 
     public static void main(String[] args) {
-        
+
         A obj1 = new A();
         B obj2 = new B();
 
