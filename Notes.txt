@@ -194,3 +194,11 @@ Race condition
 - A race condition happens when multiple threads access and modify the same data at the same time,
     and the final result depends on timing.
 - to fix race condition - use synchronized - Only one thread enters at a time.
+
+Thread state
+- New - when we create a new thread
+- Runnable - when start() method is called - Thread is ready to run 
+- Running - actually doing work
+- Waiting - sleep() / wait() method - Thread waits indefinitely until another thread wakes it up. 
+    and to go from waiting to runnable - notify() method is called
+- Dead - Thread execution finished.
