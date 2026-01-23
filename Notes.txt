@@ -168,3 +168,17 @@ Throws
 
 Finally
 - code in finally will execute not matter what. - even if there is an exception
+
+Thread
+- A thread is a small unit of execution inside a program.
+- Think like this:
+    Program → full application
+    Thread → a worker inside that application
+- Single-threaded
+    One task at a time
+    Slow
+    Blocking
+- Multi-threaded
+    Multiple tasks at once
+    Faster
+    Used in servers (Spring Boot)
