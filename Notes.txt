@@ -188,3 +188,4 @@ Thread
 - we can make our thread wait for some time by this 
     Thread.sleep(milliseconds);
 - by sleep() - thread goes into waiting state.
+- to create a thread class - we can extends Thread class - or - implements Runnable interface
