@@ -202,3 +202,13 @@ Thread state
 - Waiting - sleep() / wait() method - Thread waits indefinitely until another thread wakes it up. 
     and to go from waiting to runnable - notify() method is called.
 - Dead - Thread execution finished.
+
+Collection API
+- The Collection API is a set of ready-made classes and interfaces to store, manage, and process 
+    groups of data.
+- Instead of doing this pain:
+    int[] arr = new int[100];
+- You use smart structures that:
+    grow automatically
+    provide useful methods
+    are tested & optimized
