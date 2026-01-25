@@ -209,6 +209,6 @@ Collection API
 - Instead of doing this pain:
     int[] arr = new int[100];
 - You use smart structures that:
-    grow automatically
-    provide useful methods
+    grow automatically.
+    provide useful methods.
     are tested & optimized.
