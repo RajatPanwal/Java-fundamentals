@@ -211,4 +211,4 @@ Collection API
 - You use smart structures that:
     grow automatically
     provide useful methods
-    are tested & optimized
+    are tested & optimized.
