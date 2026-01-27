@@ -212,3 +212,7 @@ Collection API
     grow automatically.
     provide useful methods.
     are tested & optimized.
+
+Array list
+- ArrayList is a dynamic array.
+- It looks like an array, but it grows automatically.
