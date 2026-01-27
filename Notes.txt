@@ -216,3 +216,6 @@ Collection API
 Array list
 - ArrayList is a dynamic array.
 - It looks like an array, but it grows automatically.
+
+Set 
+- A Set is a collection that does NOT allow duplicate elements.
