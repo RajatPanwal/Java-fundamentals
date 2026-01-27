@@ -225,3 +225,9 @@ Map
 - HashMap 
     - Keys are unique
     - New value overwrites old value
+
+Stream API
+- Stream API lets you process a collection of data step-by-step, without modifying the original data.
+- A stream does NOT store data.
+- It only processes data from a source (List, Set, Map, array).
+- once you used a stream - you cannot reuse it.
