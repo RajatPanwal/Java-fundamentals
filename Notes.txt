@@ -219,3 +219,9 @@ Array list
 
 Set 
 - A Set is a collection that does NOT allow duplicate elements.
+
+Map
+- A Map stores data as key → value pairs.
+- HashMap 
+    - Keys are unique
+    - New value overwrites old value
