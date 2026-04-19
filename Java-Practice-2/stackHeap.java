@@ -19,6 +19,7 @@ public class stackHeap{
 
         System.out.println(obj1.num);
         System.out.println(obj2.num);
+        
 
     }
 
